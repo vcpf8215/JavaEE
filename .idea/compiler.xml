@@ -10,6 +10,8 @@
         <module name="jee-2024051104-01" />
         <module name="jee-2024051104-02" />
         <module name="Demo" />
+        <module name="jee-2024051104-05" />
+        <module name="jee-2024051104-06" />
         <module name="jee-2024051104-04" />
       </profile>
     </annotationProcessing>
