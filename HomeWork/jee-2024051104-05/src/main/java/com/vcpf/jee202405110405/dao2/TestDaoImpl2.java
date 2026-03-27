@@ -3,7 +3,7 @@ package com.vcpf.jee202405110405.dao2;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public class TestDaoImpl implements TestDao {
+public class TestDaoImpl2 implements TestDao2 {
     @Override
     public void save() {
         System.out.println("核心业务===>   save 执行保存");
