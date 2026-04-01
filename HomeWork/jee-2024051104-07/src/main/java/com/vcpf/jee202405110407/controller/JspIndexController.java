@@ -4,6 +4,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import com.vcpf.jee202405110407.entity.Book;
+import org.springframework.web.bind.annotation.RestController;
+
 import java.util.ArrayList;
 import java.util.List;
 
