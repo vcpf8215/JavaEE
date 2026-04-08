@@ -7,11 +7,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="jee-2024051104-09" />
         <module name="jee-2024051104-07" />
         <module name="Demo" />
         <module name="jee-2024051104-08" />
         <module name="jee-2024051104-01" />
         <module name="jee-2024051104-02" />
+        <module name="jee-2024051104-10" />
         <module name="jee-2024051104-05" />
         <module name="jee-2024051104-06" />
         <module name="jee-2024051104-04" />
