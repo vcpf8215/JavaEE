@@ -19,7 +19,7 @@
         <module name="jee-2024051104-06" />
         <module name="jee-2024051104-04" />
       </profile>
-      <profile name="Annotation profile for jee-2024051104-11" enabled="true">
+      <profile name="Annotation profile for jee-2024051104-14" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
@@ -34,6 +34,7 @@
       <module name="IoCDemo" target="1.8" />
       <module name="IoCDom0" target="1.8" />
       <module name="jee" target="1.8" />
+      <module name="jee-2024051104-14" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -43,6 +44,7 @@
       <module name="jee-2024051104-07" options="" />
       <module name="jee-2024051104-11" options="-parameters" />
       <module name="jee-2024051104-12" options="-parameters" />
+      <module name="jee-2024051104-14" options="-parameters" />
     </option>
   </component>
 </project>
