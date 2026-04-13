@@ -12,11 +12,21 @@
         <module name="Demo" />
         <module name="jee-2024051104-08" />
         <module name="jee-2024051104-01" />
+        <module name="jee-2024051104-12" />
         <module name="jee-2024051104-02" />
         <module name="jee-2024051104-10" />
         <module name="jee-2024051104-05" />
         <module name="jee-2024051104-06" />
         <module name="jee-2024051104-04" />
+      </profile>
+      <profile name="Annotation profile for jee-2024051104-11" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/../../../../mvn/repo/org/projectlombok/lombok/1.18.44/lombok-1.18.44.jar" />
+        </processorPath>
+        <module name="jee-2024051104-11" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -31,6 +41,8 @@
       <module name="jee-2024051104-01" options="" />
       <module name="jee-2024051104-02" options="-parameters" />
       <module name="jee-2024051104-07" options="" />
+      <module name="jee-2024051104-11" options="-parameters" />
+      <module name="jee-2024051104-12" options="-parameters" />
     </option>
   </component>
 </project>
