@@ -35,24 +35,28 @@ public class IoCTest {
         person.setDriveable(bike);
         person.hangOut();
     }
+
     @Test
     public void test02() {
         Driveable car = container.getBean(Car.class);
         person.setDriveable(car);
         person.hangOut();
     }
+
     @Test
     public void test03() {
         Driveable train = container.getBean(Train.class);
         person.setDriveable(train);
         person.hangOut();
     }
+
     @Test
     public void test04() {
         Driveable airPlane = container.getBean(AirPlane.class);
         person.setDriveable(airPlane);
         person.hangOut();
     }
+
     @Test
     public void test05() {
         Driveable ship = container.getBean(Ship.class);

@@ -31,13 +31,17 @@
         <option value="$PROJECT_DIR$/jee-2024051104-11/pom.xml" />
         <option value="$PROJECT_DIR$/jee-2024051104-12/pom.xml" />
         <option value="$PROJECT_DIR$/jee-2024051104-14/pom.xml" />
+        <option value="$PROJECT_DIR$/HomeWork/jee-2024051104-11/pom.xml" />
+        <option value="$PROJECT_DIR$/HomeWork/jee-2024051104-12/pom.xml" />
+        <option value="$PROJECT_DIR$/HomeWork/jee-2024051104-14/pom.xml" />
+        <option value="$PROJECT_DIR$/jee-2024051104-15/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/IoCDemo/pom.xml" />
         <option value="$PROJECT_DIR$/IoCDom0/pom.xml" />
-        <option value="$PROJECT_DIR$/jee-2024051104-14/pom.xml" />
+        <option value="$PROJECT_DIR$/demo/pom.xml" />
         <option value="$PROJECT_DIR$/jee/pom.xml" />
         <option value="$PROJECT_DIR$/jee202405110401/pom.xml" />
       </set>

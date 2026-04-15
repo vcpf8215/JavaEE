@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.vcpf.jee202405110414.dao.EmpDao">
+    <insert id="insertObj">
+        insert into tb_emp(id,name,salary,age)
+        values(#{id},#{name},#{salary},#{age})
+    </insert>
+    <delete id="deleteObj">
+        delete from tb_emp
+        where id=#{id}
+    </delete>
+    <update id="updateObj">
+        update tb_emp
+        set name=#{name},salary=#{salary},age=#{age}
+        where
+            id=#{id}
+    </update>
+    <select id="selectAllObjs" resultType="com.vcpf.jee202405110414.entity.Emp">
+        select
+            id,name,salary,age
+        from tb_emp
+    </select>
+    <select id="selectObjById" parameterType="String" resultType="com.vcpf.jee202405110414.entity.Emp">
+        select
+            id,name,salary,age
+        from tb_emp
+        where
+            id = #{id}
+    </select>
+
+</mapper>
